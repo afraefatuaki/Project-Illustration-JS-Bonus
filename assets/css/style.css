@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Merriweather:wght@400;700&display=swap');
 body{
     font-family: 'Merriweather', serif;
-    margin: 0px;
+   
 }
 header ul{
     text-align:right;
@@ -27,6 +27,14 @@ header section{
 }
 .darkMode #img3{
     background: url("../img/darkmode-img3.png") right/contain no-repeat;
+}
+/* --------------------------------- */
+#dark, #light{
+    text-decoration: none;
+    color: gray;
+    border: 2px dotted gray;
+    padding: 10px 30px;
+  margin-left: 10px;
 }
 header section h1{
     font-size: 50px;
