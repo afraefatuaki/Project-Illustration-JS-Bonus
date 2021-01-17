@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Merriweather:wght@400;700&display=swap');
+body{
+    font-family: 'Merriweather', serif;
+    margin: 0px;
+}
+header ul{
+    text-align:right;
+}
+header li{
+    display:inline-block;
+    padding-right: 40px;
+}
+header ul a{
+    text-decoration: none;
+    color: black;
+}
+header section{
+    padding: 250px 10%;
+    background: url(../img/illustration1.gif) right/contain no-repeat; 
+}
+/*backgroundImg*/
+.darkMode #img1{
+    background: url("../img/darkmode-img1.png") right/contain no-repeat;
+}
+.darkMode #img2{
+    background: url("../img/darkmode-img2.png") left/contain no-repeat;
+}
+.darkMode #img3{
+    background: url("../img/darkmode-img3.png") right/contain no-repeat;
+}
+header section h1{
+    font-size: 50px;
+    width: 650px;
+}
+header section p{
+    width: 600px;
+    font-size: 20px;
+    line-height: 50px;
+}
+header section a{
+    text-decoration: none;
+    padding: 20px 25px;
+    border-radius: 5px;
+    color: black;
+    box-shadow: 0px 0px 1px grey
+    ;
+}
+header section a:first-of-type{
+    background-color: black;
+    color: white;
+    margin-right: 5px;
+}
+/* ----------------First main‘s section -------------------- */
+main section:nth-of-type(1){
+    margin-top: 10%;
+    margin-left: 10%;
+    padding: 200px 8%;
+    padding-left: 50%;
+    background: url(../img/illustration2.png) left/contain no-repeat;
+}
+main section:first-child h1{
+    font-size: 50px;
+    width: 650px;
+}
+main section:first-child p{
+    width: 600px;
+    font-size: 20px;
+    line-height: 50px;
+}
+/* ----------------Second main‘s section--------------------- */
+main section:nth-of-type(2){
+    margin-top: 10%;
+    padding: 150px 10%;
+    margin-right: 10%;
+    background: url(../img/illustration3.png) right/contain no-repeat;
+}
+main section:nth-of-type(2) h1{
+    font-size: 50px;
+    width: 550px;
+}
+main section:nth-of-type(2) p{
+    width: 450px;
+    font-size: 20px;
+    line-height: 50px;
+}
+/* ----------------Third main‘s section with the three photos --------------------- */
+main section:nth-of-type(3) div{
+    text-align: center;
+    margin: 20% 0 5% 15%
+}
+main section:nth-of-type(3) h1{
+    font-size: 60px;
+    width: 80%;
+}
+main section:nth-of-type(3) p{
+    font-size: 30px;
+    line-height: 60px;
+    width: 80%;
+}
+main section:nth-of-type(3) img{
+    width: 25%;
+    margin-left: 6%;
+}
+
+main section:nth-of-type(3) img:hover{
+    box-shadow: -1px 1px 15px 1px #6D6D6D
+}
+/* ----------------Fourth main‘s section with 6 photos--------------------- */
+main section:nth-of-type(4) div:first-of-type{
+    text-align: center;
+    margin: 15% 0 0 20%;
+}
+main section:nth-of-type(4) h1{
+    font-size: 60px;
+    width: 80%;
+    margin-top: 0%;
+}
+main section:nth-of-type(4) p{
+    font-size: 30px;
+    line-height: 60px;
+    width: 80%;
+}
+main section:nth-of-type(4) div{
+    margin-top: 5%;
+}
+main section:nth-of-type(4) img{
+    width: 630px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+main section:nth-of-type(4) img:hover{
+    border: 1px solid black;
+
+}
+/* ----------------Fifth main‘s section --------------------- */
+main section:nth-of-type(5) div:first-of-type{
+    text-align: center;
+    margin: 15% 0 0 20%;
+}
+main section:nth-of-type(5) div:first-of-type h1{
+    font-size: 60px;
+    width: 80%;
+    margin-top: 0%;
+}
+main section:nth-of-type(5) div:first-of-type p{
+    font-size: 30px;
+    line-height: 60px;
+    width: 80%;
+}
+/* ----------------Membership div--------------------- */
+main section:nth-of-type(5) div:last-of-type p{
+    font-size: 20px;
+    padding: 20px 70px;
+    line-height: 40px;
+    margin-bottom: 50px
+
+}
+main section:nth-of-type(5) div:last-of-type h1{
+    font-size: 60px;
+    padding-top: 30px;
+}
+main section:nth-of-type(5) div:last-of-type{
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 5px; 
+    background-color:#F5FBFE;
+    margin-left: 38%;
+    margin-bottom: 200px;
+    width: 25%;
+    color: #202020;
+    padding: 90px 0px;
+}
+main section:nth-of-type(5) div:last-of-type a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #24bff2;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 20px 80px;
+    border-radius: 5px;   
+}
+h3{
+    color: grey;
+    font-size: 25px;
+    margin-top: 100px;
+ }
+h2{
+    font-size: 30px;
+}
+/* ----------------FOOTER--------------------- */
+footer h1{
+    font-size: 70px;
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    color: grey
+}
+footer h2{
+    text-align: center;
+    font-size: 15px;
+}
+footer ul{
+    text-align: center
+}
+footer ul li{
+    display: inline-block;
+    font-size: 15px
+}
+.first::before{
+    content: ". ";
+  color: #3b5998;
+}
+.second::before{
+    content: ". ";
+  color: #fcaf45;
+}
+.third::before{
+    content: ". ";
+  color: #55acee;
+}
+.fourth::before{
+    content: ". ";
+  color: #c4302b;
+  
+}
+.fourth{
+    padding-right: 50px;
+    margin-top: 20px;
+}
