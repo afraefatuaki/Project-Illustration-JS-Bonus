@@ -3,6 +3,7 @@
 function darkMode() {
     document.body.classList.toggle("darkMode")
     document.body.style.backgroundColor = "#000000"
+    document.getElementById("light").style.backgroundColor = "#FFFF"
     document.getElementById("Text").style.color = "#FFFF"
     document.getElementById("Text1").style.color = "#FFFF"
     document.getElementById("Text2").style.color = "#FFFF"

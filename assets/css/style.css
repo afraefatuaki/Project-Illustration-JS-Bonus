@@ -10,6 +10,9 @@ header li{
     display:inline-block;
     padding-right: 40px;
 }
+header li:hover{
+    text-decoration: underline;
+}
 header ul a{
     text-decoration: none;
     color: black;
@@ -35,6 +38,9 @@ header section{
     border: 2px dotted gray;
     padding: 10px 30px;
   margin-left: 10px;
+}
+#dark{
+    background-color: black;
 }
 header section h1{
     font-size: 50px;
